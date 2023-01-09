@@ -1,0 +1,131 @@
+#1
+Build me a basic html, css and javascript website in the theme of marvel end game. 
+It should include the following:
+1. A favicon of iron man
+2. A title that says "This is the End Game."
+3. A slider with images of the avengers (made in css)
+4. Footer that says "ChatGPT is the End Game."
+5. Hamburger menu with clickable names of each of the main Avengers cast members
+6. Posts containers with links for each avenger
+7. Post page with spaces for images at the top a summary about each avenger from the menu list
+
+#2
+Make the css and html code separate, imagine the css code is in its own file called "styles.css"
+
+#3
+Now add the javascript to make it the website more functional, imagine the javascript as a separate file that you can name yourself and link it to the html code which includes the css linking.
+
+#4
+Revise the css to customise the div's in the html. The website looks a bit too plain. I want it to look  more like a normal website every user could navigate
+
+#5
+Edit either the html or the javascript code so as to make the menu with the list of avengers a drop down. Add some cool fonts for the texts being used on the site. 
+
+#5
+The html for the drop down doesn't seem to be working. Try adding the functionality through  the javascript code
+
+#6
+Doesn't seem to be working. Let's try recreating this whole solution through react.js
+
+#7
+Help structure the project directory and tell me how to run the app in my terminal
+
+#8
+Okay, give me the code above again, but at the top include the name of the file that will hold that code
+
+#9
+Okay, now write the code for styles.css, index.js and package.json and manifest.json respectively
+
+#10
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	font-size: 2em;
+	font-family: 'Roboto Mono', monospace;
+}
+
+nav {
+	position: relative;
+	background-color: #333;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+	box-sizing: border-box;
+	z-index: 2;
+}
+
+.menu-icon {
+	display: none;
+}
+
+@media (max-width: 992px) {
+	.menu-icon {
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		cursor: pointer;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.menu-
+
+Your code isn't complete
+
+#11
+Write me a catcy readme for the theme of this website
+
+#12
+Write me the code for index.html
+
+#13
+Write me the code for index.html while keeping in mind the structure of the project files
+
+#14
+Give me those steps to run it again please
+Certainly! Here are the steps for running a React app locally:
+
+    Navigate to the project directory in your terminal: cd endgame-website
+    Install the dependencies: npm install
+    Start the development server: npm start
+    Open a web browser and go to the URL http://localhost:3000 to view the app.
+
+The development server will automatically reload the app whenever you make changes to the code, so you can see your changes in real-time.
+
+I hope this helps! Let me know if you have any further questions.
+
+
+###IMAGE PROMPTS###
+Number of Images = 2
+Guidance scale = 7.5
+Steps = 25
+Width = 768
+Height = 768
+Seed = 0
+Memory optimization = Checked
+#1 - Iron Man
+PROMPT: 
+An Avengers End Game style picture of Iron Man flying in the sky, ultra realistic, high resolution, high quality, magical
+NEGATIVE PROMPT:
+animated style, comic look, comic style, deformed hands, bad anatomy, bad fingers, bad body shape
+
+#2 - Captain America
+An Avengers End Game style picture of Captain America, ultra realistic, high resolution, high quality
+
